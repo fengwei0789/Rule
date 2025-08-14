@@ -1,0 +1,7 @@
+# 80/443 之外的端口规则
+
+payload:
+  - DST-PORT,1-79
+  - DST-PORT,81-442
+  - DST-PORT,444-8095
+  - DST-PORT,8097-65535
