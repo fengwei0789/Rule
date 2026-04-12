@@ -14,5 +14,5 @@
     interval: 86400
 
 +rules:
-  - RULE-SET,PT,国内流量
-  - RULE-SET,PT-D,国内流量
+  - RULE-SET,PT,DIRECT
+  - RULE-SET,PT-D,DIRECT
