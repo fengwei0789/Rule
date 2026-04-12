@@ -5,7 +5,7 @@
     format: mrs
     url: "https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Download.mrs"
     interval: 86400
-    path: ./ruleset/pt.mrs
+    path: ./rule_provider/pt.mrs
 
   ptD:
     type: http
@@ -13,7 +13,7 @@
     format: yaml
     url: "https://raw.githubusercontent.com/fengwei0789/Rule/main/DST-PORT-direct.yaml"
     interval: 86400
-    path: ./ruleset/ptD.yaml
+    path: ./rule_provider/ptD.yaml
 
 +rules:
   - RULE-SET,pt,DIRECT
