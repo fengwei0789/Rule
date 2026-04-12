@@ -1,3 +1,4 @@
+[YAML]
 +rule-providers:
   pt:
     type: http
