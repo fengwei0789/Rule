@@ -1,4 +1,3 @@
-
 +rule-providers:
   pt:
     type: http
