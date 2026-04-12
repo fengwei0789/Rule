@@ -165,8 +165,6 @@ rules:
   - AND,((DST-PORT,443),(NETWORK,UDP),(NOT,((GEOIP,CN)))),REJECT  # 阻止海外 QUIC
 
   # 域名规则
-  - RULE-SET,pt,直接连接
-  - RULE-SET,ptD,直接连接
   - RULE-SET,Private,直接连接
   - RULE-SET,Direct,直接连接
   - RULE-SET,XPTV,直接连接
@@ -200,8 +198,6 @@ BehaviorIP: &BehaviorIP {type: http, behavior: ipcidr, format: mrs, interval: 86
 # 规则提供者
 rule-providers: 
   # 域名规则
-  pt:             {<<: *BehaviorDN, url: https://github.com/666OS/rules/blob/release/mihomo/domain/Download.mrs}
-  ptD:            {<<: *BehaviorDN, url: https://raw.githubusercontent.com/fengwei0789/Rule/refs/heads/main/DST-PORT-direct.yaml}
   Private:        {<<: *BehaviorDN, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Private.mrs}
   Direct:         {<<: *BehaviorDN, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Direct.mrs}
   AI:             {<<: *BehaviorDN, url: https://github.com/666OS/rules/raw/release/mihomo/domain/AI.mrs}  
