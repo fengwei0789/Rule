@@ -17,5 +17,7 @@
     path: ./rule_provider/ptD.yaml
 
 +rules:
+  - DOMAIN-SUFFIX,hyhbk.com,DIRECT
+  - DOMAIN-SUFFIX,yemett.com,DIRECT
   - RULE-SET,pt,DIRECT
   - RULE-SET,ptD,DIRECT
