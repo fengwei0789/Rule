@@ -1,11 +1,3 @@
-# --- 以下为 OneSmart 配置专用覆写 ---
-[General]
-DISABLE_UDP_QUIC = 1
-
-DOWNLOAD_FILE = url=https://github.com/666OS/YYDS/raw/main/mihomo/config/OneSmart.yaml, path=/etc/openclash/config/OneSmart.yaml, cron=0 6 * * *, force=false
-CONFIG_FILE = /etc/openclash/config/OneSmart.yaml
-SUB_INFO_URL = $EN_KEY1
-
 +proxy-providers:
   优质服务商:
     url: "$EN_KEY1"
