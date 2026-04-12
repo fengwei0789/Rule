@@ -1,0 +1,23 @@
++general:
+  disable-udp-quic: true
+
++rule-providers:
+  pt:
+    type: http
+    behavior: domain
+    format: mrs
+    url: "https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Download.mrs"
+    interval: 86400
+    path: ./ruleset/pt.mrs
+
+  ptD:
+    type: http
+    behavior: classical
+    format: yaml
+    url: "https://raw.githubusercontent.com/fengwei0789/Rule/main/DST-PORT-direct.yaml"
+    interval: 86400
+    path: ./ruleset/ptD.yaml
+
++rules:
+  - RULE-SET,pt,DIRECT
+  - RULE-SET,ptD,DIRECT
