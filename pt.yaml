@@ -1,5 +1,4 @@
-+general:
-  disable-udp-quic: true
+[general]
 
 +rule-providers:
   pt:
