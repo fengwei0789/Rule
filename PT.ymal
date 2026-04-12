@@ -1,0 +1,18 @@
++rule-providers:
+  PT:
+    type: http
+    behavior: domain
+    format: mrs
+    url: "https://github.com/666OS/rules/raw/release/mihomo/domain/Download.mrs"
+    interval: 86400
+
+  PT-D:
+    type: http
+    behavior: classical
+    format: yaml
+    url: "https://raw.githubusercontent.com/fengwei0789/Rule/main/DST-PORT-direct.yaml"
+    interval: 86400
+
++rules:
+  - RULE-SET,PT,国内流量
+  - RULE-SET,PT-D,国内流量
