@@ -4,7 +4,7 @@
     type: http
     behavior: domain
     format: mrs
-    url: "https://raw.githubusercontent.com/666OS/rules/release/mihomo/domain/Download.mrs"
+    url: "https://github.com/666OS/rules/raw/release/mihomo/domain/Download.mrs"
     interval: 86400
     path: ./rule_provider/pt.mrs
 
