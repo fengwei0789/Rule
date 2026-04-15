@@ -3,6 +3,7 @@
 +.52pt.site
 +.acg.rip
 +.acm.org
++.audiences.me
 +.aidoru-online.me
 +.alpharatio.cc
 +.animebytes.tv
@@ -132,6 +133,7 @@
 +.securelogin.com.cn
 +.skyey2.com
 +.soulvoice.club
++.springsunday.net
 +.springer.com
 +.springernature.com
 +.springsunday.net
