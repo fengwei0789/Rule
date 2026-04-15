@@ -3,7 +3,7 @@
   pt:
     type: http
     behavior: domain
-    format: txt
+    format: text
     url: "https://raw.githubusercontent.com/fengwei0789/Rule/refs/heads/main/Download.txt"
     interval: 86400
     path: ./rule_provider/pt.txt
