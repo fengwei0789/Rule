@@ -18,6 +18,6 @@
 
 +rules:
   - DOMAIN-SUFFIX,hyhbk.com,DIRECT
-  - DOMAIN-SUFFIX,yemett.com,DIRECT
+  - DOMAIN-SUFFIX,ymette.com,DIRECT
   - RULE-SET,pt,直接连接
   - RULE-SET,ptD,直接连接
