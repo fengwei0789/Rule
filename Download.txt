@@ -70,6 +70,7 @@
 +.hdtime.org
 +.hdupt.com
 +.hdvideo.one
++ hdwing.org
 +.hdzone.me
 +.hhanclub.top
 +.hitpt.com
@@ -181,6 +182,7 @@ tracker.hdkyl.in
 tracker.hdsky.me
 tracker.hdtime.org
 tracker.hhan.club
+tracker.hdwing.org
 tracker.keepfrds.com
 tracker.leaves.red
 tracker.m-team.cc
